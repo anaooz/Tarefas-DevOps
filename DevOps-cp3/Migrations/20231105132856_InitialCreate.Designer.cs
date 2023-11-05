@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DevOps_cp3.Migrations
 {
     [DbContext(typeof(AzureDbContext))]
-    [Migration("20231105011908_MigrationFinal")]
-    partial class MigrationFinal
+    [Migration("20231105132856_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
