@@ -1,0 +1,19 @@
+CREATE TABLE Usuarios (
+    ID INT PRIMARY KEY,
+    Nome VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) NOT NULL UNIQUE,
+    Senha VARCHAR(64) NOT NULL
+);
+
+CREATE TABLE Eventos (
+    ID INT PRIMARY KEY,
+    Titulo VARCHAR(100) NOT NULL,
+    DataHora DATETIME NOT NULL,
+    Descricao TEXT,
+);
+
+    CREATE TABLE Lembretes (
+    ID INT PRIMARY KEY,
+    Texto VARCHAR(255) NOT NULL,
+    DataHoraLembrete DATETIME NOT NULL,
+);
